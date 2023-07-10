@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+}
+
+/* Common shared styles */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.pink-text {
+    color: #E55473;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0px;
+    padding: 20px 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 30px;
+}
+/* .full-bg{
+    width: 100%;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+} */
+
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 240px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 50px;
+    color: black;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: #E55473;
+}
+/* header style */
+
+header{
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
