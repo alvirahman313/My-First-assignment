@@ -155,8 +155,14 @@ header {
     width: 464px;
     height: 539px;
 }
-.pera{
-    
+.pera {
+    color: #272727;
+    margin-top: 31px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
 
 
@@ -177,7 +183,7 @@ header {
     display: flex;
     justify-content: space-around;
     padding: 86px 100px;
-    
+
 }
 
 .logo-pera {
