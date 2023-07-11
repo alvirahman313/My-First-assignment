@@ -1,5 +1,6 @@
 * {
     margin: 0px;
+    padding: 0px;
 }
 
 /* Common shared styles */
@@ -22,13 +23,14 @@ body {
     margin-right: 30px;
 }
 
-/* .full-bg{
+.full-bg {
     width: 100%;
 }
-.container{
+
+.container {
     width: 1440px;
     margin: 0 auto;
-} */
+}
 
 /* nav styles */
 nav {
@@ -72,13 +74,7 @@ header {
     justify-content: space-between;
 }
 
-.banner-content {}
-
-.banner-img {
-    width: 500px;
-}
-
-.banner-tital {
+.banner-title {
     color: #272727;
     font-size: 80px;
     font-weight: 800;
@@ -90,4 +86,196 @@ header {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 32px;
+    line-height: 30px;
+}
+
+.banner-img {
+    margin-bottom: 0px;
+}
+
+/* main style */
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.section-pera {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.all-flowers {
+    display: flex;
+    gap: 24px;
+}
+
+.flowers {
+    text-align: center;
+
+}
+
+.all-flowers .flowers .flowers-pic {
+    width: 310px;
+    height: 428px;
+}
+
+.one {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 539px;
+}
+
+.two {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 539px;
+}
+
+.three {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 539px;
+}
+.pera{
+    
+}
+
+
+/* logo section */
+.logo {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.logo-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img {
+    display: flex;
+    justify-content: space-around;
+    padding: 86px 100px;
+    
+}
+
+.logo-pera {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+
+
+/* sale section */
+
+.div-one {
+    text-align: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.sale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 186px;
+}
+
+
+
+
+/* ig section */
+.rose {
+    display: flex;
+    gap: 24px;
+}
+
+/* Subscribe */
+
+
+.Subscribe-bg {
+    margin: 128px 0px;
+}
+
+.Subscribe-bg .Subscribe {
+    background-image: url('Flowe-Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 128px 0px;
+
+}
+
+.input-box {
+    text-align: center;
+}
+
+
+
+
+
+.email {
+    padding: 23px 513px 22px 22px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0px;
+}
+
+/* footer style */
+footer {
+    background: #111010;
+
+}
+
+footer .footer-con {
+
+    padding: 210px;
+    text-align: center;
+}
+
+.footer-pera {
+    color: rgba(255, 255, 255, 0.90);
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.last-line {
+    color: rgba(255, 255, 255, 0.40);
+
+    font-size: 16px;
+    font-weight: 400;
 }
